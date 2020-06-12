@@ -1,0 +1,2 @@
+dataproc-create-cluster:
+	gcloud beta dataproc clusters create vanacluster --enable-component-gateway --bucket dataproc.jjkoh.com --region asia-southeast1 --subnet default --zone asia-southeast1-a --master-machine-type custom-1-6656 --master-boot-disk-type pd-ssd --master-boot-disk-size 50 --num-workers 2 --worker-machine-type custom-1-6656 --worker-boot-disk-type pd-ssd --worker-boot-disk-size 50 --image-version 1.5-debian10 --properties spark:spark.jars=gs://spark-lib/bigquery/spark-bigquery-latest_2.12.jar --optional-components ANACONDA,JUPYTER --project jjkoh95
