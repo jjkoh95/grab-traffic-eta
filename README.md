@@ -50,5 +50,7 @@ You should receive JSON result:
 {"eta": 893}
 ```
 
+In the event if our trial credits are exhausted or expired, kindly find the source code and models in app folder.
+
 ## Disclaimer
 This repository is not meant for repeated from end to end. The repository is extremely unorganised as most works are iterated ad hoc and spontaneously. On top of that, a majority part of the code is run on GCP. However, we try to use open-source tools as much as possible to make this solution cloud-neutral.
