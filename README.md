@@ -52,5 +52,7 @@ You should receive JSON result:
 
 In the event if our trial credits are exhausted or expired, kindly find the source code and models in app folder.
 
+Update - Please try replacing the above endpoint to https://vanagrab.jjkoh.com/grab/eta/dnn
+
 ## Disclaimer
 This repository is not meant for repeated from end to end. The repository is extremely unorganised as most works are iterated ad hoc and spontaneously. On top of that, a majority part of the code is run on GCP. However, we try to use open-source tools as much as possible to make this solution cloud-neutral.
